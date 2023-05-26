@@ -6,13 +6,13 @@ const CarouselShopping = () => {
   return (
     <div className={styles.carouselContainer}>
       <Carousel containerClass={styles.carousel}>
-        <Carousel.Item>
+        <Carousel.Item className={styles.carouselItem}>
           <img className={styles.carouselImage} src="/images/img1.jpg" alt="Primeiro slide" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className={styles.carouselItem}>
           <img className={styles.carouselImage} src="/images/img2.jpg" alt="Segundo slide" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className={styles.carouselItem}>
           <img className={styles.carouselImage} src="/images/img3.jpg" alt="Terceiro slide" />
         </Carousel.Item>
       </Carousel>

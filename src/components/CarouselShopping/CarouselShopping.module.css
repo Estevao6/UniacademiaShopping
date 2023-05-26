@@ -1,16 +1,5 @@
-.carouselContainer {
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.carousel {
-  max-height: 500px;
-  margin: 0 auto;
-}
-  
 .carouselImage {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: 1000px; 
+  height: 600px; 
+  object-fit: cover; 
 }

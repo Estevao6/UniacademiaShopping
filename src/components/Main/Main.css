@@ -1,5 +1,33 @@
 .shopping-center-title {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
+  font-family: 'Righteous', cursive;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.listadecompras {
+  font-family: 'Righteous', cursive;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #005dd6;
+  color: #fff;
+  border: none;
+  border-radius: 4px; 
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}

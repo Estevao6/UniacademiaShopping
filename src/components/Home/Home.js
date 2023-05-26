@@ -17,7 +17,7 @@ const Home = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validações e lógica de envio do formulário aqui
+    
   };
 
   return (
@@ -33,12 +33,7 @@ const Home = (props) => {
           <CarouselShopping />
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <h2>Cadastre-se e tenha acesso a descontos exclusivos!</h2>
-          <FormCadastro handleSubmit={handleSubmit} />
-        </Col>
-      </Row>
+      
     </Container>
   );
 };

@@ -28,6 +28,7 @@ const FormCadastro = () => {
     </div>
   ) : (
     <Form onSubmit={handleSubmit} className="form-cadastro">
+      <h2>Cadastre-se para descontos exclusivos</h2>
       <FormGroup>
         <Label for="nome">Nome:</Label>
         <Input type="text" name="nome" id="nome" required />
